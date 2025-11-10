@@ -15,10 +15,15 @@ app = FastAPI(
     redoc_url="/api/redoc",
 )
 
-# CORS middleware
+# CORS middleware - Allow specific origins for production
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.CORS_ORIGINS,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "https://recrutix-v1.onrender.com",  # Your Render frontend URL
+        "https://recrutix-frontend.onrender.com",  # Alternative frontend URL
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

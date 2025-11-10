@@ -13,8 +13,8 @@ class Settings(BaseSettings):
     API_PORT: int = 8000
     DEBUG: bool = True
 
-    # CORS
-    CORS_ORIGINS: List[str] = ["http://localhost:5173", "http://localhost:3000"]
+    # CORS - Allow all origins for production deployment
+    CORS_ORIGINS: List[str] = ["*"]
 
     # OpenAI
     OPENAI_API_KEY: str = ""
