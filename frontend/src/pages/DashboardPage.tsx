@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   Users, Calendar, Search, Trash2,
   Briefcase, Award, Clock, Target, Zap, BarChart3, Activity,
