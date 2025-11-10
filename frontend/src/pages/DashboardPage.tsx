@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { 
-  LayoutDashboard, Users, TrendingUp, Calendar, Search, Trash2,
+  Users, Calendar, Search, Trash2,
   Briefcase, Award, Clock, Target, Zap, BarChart3, Activity,
-  CheckCircle, XCircle, ArrowUp, ArrowDown, Eye, Download
+  XCircle, ArrowUp, ArrowDown, Eye, Download
 } from 'lucide-react';
 import Card from '../components/common/Card';
 import Loader from '../components/common/Loader';
@@ -12,7 +12,7 @@ import { Candidate, CandidateStats } from '../types/candidate.types';
 import candidateService from '../services/candidate.service';
 import { formatDate } from '../utils/formatters';
 import { 
-  LineChart, Line, BarChart, Bar, PieChart, Pie, Cell,
+  PieChart, Pie, Cell,
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Area, AreaChart
 } from 'recharts';
 
@@ -25,7 +25,6 @@ const DashboardPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [error, setError] = useState('');
-  const [viewMode, setViewMode] = useState<'grid' | 'list'>('list');
 
   // Enhanced chart data
   const trendData = [

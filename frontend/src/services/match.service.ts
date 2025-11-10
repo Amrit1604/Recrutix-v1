@@ -1,5 +1,5 @@
 import apiService from './api.service';
-import { JobDescription, MatchResult, MatchRequest } from '@types/job.types';
+import { JobDescription, MatchResult, MatchRequest } from '../types/job.types';
 
 /**
  * Match service - handles AI-powered candidate matching

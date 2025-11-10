@@ -16,7 +16,7 @@ interface Interview {
 }
 
 const InterviewScheduler: React.FC = () => {
-  const [interviews, setInterviews] = useState<Interview[]>([
+  const [interviews] = useState<Interview[]>([
     {
       id: '1',
       candidateName: 'Sarah Johnson',

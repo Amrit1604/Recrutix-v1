@@ -1,6 +1,6 @@
 import apiService from './api.service';
-import { Candidate, CandidateStats } from '@types/candidate.types';
-import { UploadResponse } from '@types/api.types';
+import { Candidate, CandidateStats } from '../types/candidate.types';
+import { UploadResponse } from '../types/api.types';
 
 /**
  * Candidate service - handles all candidate-related API calls
