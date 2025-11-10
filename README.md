@@ -8,7 +8,7 @@
 
 **Recrutix** is an all-in-one AI-powered recruitment automation platform that solves the three biggest pain points in modern recruitment:
 1. ⏰ Time-consuming manual resume screening
-2. 🎯 Inefficient candidate-job matching  
+2. 🎯 Inefficient candidate-job matching
 3. 💸 Expensive tool fragmentation
 
 **Built in 2 weeks. Ready to deploy today. Zero external dependencies.**
@@ -168,7 +168,7 @@ cd recrutix
 
 **2. Setup Backend:**
 ```bash
-cd HireMind/backend
+cd /backend
 python -m venv venv
 venv\Scripts\activate  # Windows
 # source venv/bin/activate  # Mac/Linux
@@ -185,14 +185,14 @@ npm install
 
 **Backend** (Terminal 1):
 ```bash
-cd HireMind/backend
+cd /backend
 start_server.bat  # Windows
 # uvicorn app.main:app --reload --port 8000  # Mac/Linux
 ```
 
 **Frontend** (Terminal 2):
 ```bash
-cd HireMind/frontend
+cd /frontend
 npm run dev
 ```
 

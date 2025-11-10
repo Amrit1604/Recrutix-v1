@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     HF_TOKEN: str = ""
 
     # Database
-    DATABASE_URL: str = "postgresql://user:password@localhost:5432/hiremind"
+    DATABASE_URL: str = "postgresql://user:password@localhost:5432/Recrutix"
 
     # File Upload
     MAX_UPLOAD_SIZE: int = 5242880  # 5MB

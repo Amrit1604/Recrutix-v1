@@ -8,7 +8,7 @@ from app.routes import upload, candidates, matching
 
 # Create FastAPI app
 app = FastAPI(
-    title="HireMind API",
+    title="Recrutix API",
     description="AI-powered recruitment system backend",
     version="1.0.0",
     docs_url="/api/docs",
