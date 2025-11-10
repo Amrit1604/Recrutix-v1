@@ -1,0 +1,126 @@
+[
+  {
+    "id": "20251110205836183167",
+    "name": "AMRIT JOSHI",
+    "email": "KeyVora.EXPERIENCEamritjoshi2004@gmail.com",
+    "phone": null,
+    "location": "Location Not Specified",
+    "skills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "Spring Boot",
+      "SQL",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "AWS",
+      "Docker",
+      "Git",
+      "HTML"
+    ],
+    "experience": [
+      {
+        "company": "Company Name",
+        "position": "Full-stack developer and B.E. Computer Science student who focuses on cloud infrastructure and",
+        "duration": "2020 - Present",
+        "description": "Experience description",
+        "startDate": null,
+        "endDate": null
+      },
+      {
+        "company": "Class XII \u2013 74.4% (2023)",
+        "position": "Bachelor\u2019s of Engineering, Computer Science, Chitkara University (2023\u20132027) \u2013 CGPA: 8.06",
+        "duration": "2020 - Present",
+        "description": "Experience description",
+        "startDate": null,
+        "endDate": null
+      },
+      {
+        "company": "Company Name",
+        "position": "AI and Full Stack Developer (Self-Directed)                                                                                           Jun 2023 \u2013 Present",
+        "duration": "2020 - Present",
+        "description": "Experience description",
+        "startDate": null,
+        "endDate": null
+      }
+    ],
+    "education": [
+      {
+        "institution": "University",
+        "degree": "Bachelor\u2019s of Engineering, Computer Science, Chitkara University (2023\u20132027) \u2013 CGPA: 8.06",
+        "field": null,
+        "year": "2023"
+      }
+    ],
+    "summary": "Google Cloud Agentic AI Day (2025), MERN Stack Development \u2013 ThinkQubator (2025), Google",
+    "resumeUrl": "resumee.pdf",
+    "uploadedAt": "2025-11-10T20:58:36.192577",
+    "matchScore": null
+  },
+  {
+    "id": "20251110212104605702",
+    "name": "AMRIT JOSHI",
+    "email": "KeyVora.EXPERIENCEamritjoshi2004@gmail.com",
+    "phone": null,
+    "location": "Location Not Specified",
+    "skills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "Spring Boot",
+      "SQL",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "AWS",
+      "Docker",
+      "Git",
+      "HTML"
+    ],
+    "experience": [
+      {
+        "company": "Company Name",
+        "position": "Full-stack developer and B.E. Computer Science student who focuses on cloud infrastructure and",
+        "duration": "2020 - Present",
+        "description": "Experience description",
+        "startDate": null,
+        "endDate": null
+      },
+      {
+        "company": "Class XII \u2013 74.4% (2023)",
+        "position": "Bachelor\u2019s of Engineering, Computer Science, Chitkara University (2023\u20132027) \u2013 CGPA: 8.06",
+        "duration": "2020 - Present",
+        "description": "Experience description",
+        "startDate": null,
+        "endDate": null
+      },
+      {
+        "company": "Company Name",
+        "position": "AI and Full Stack Developer (Self-Directed)                                                                                           Jun 2023 \u2013 Present",
+        "duration": "2020 - Present",
+        "description": "Experience description",
+        "startDate": null,
+        "endDate": null
+      }
+    ],
+    "education": [
+      {
+        "institution": "University",
+        "degree": "Bachelor\u2019s of Engineering, Computer Science, Chitkara University (2023\u20132027) \u2013 CGPA: 8.06",
+        "field": null,
+        "year": "2023"
+      }
+    ],
+    "summary": "Google Cloud Agentic AI Day (2025), MERN Stack Development \u2013 ThinkQubator (2025), Google",
+    "resumeUrl": "resumee.pdf",
+    "uploadedAt": "2025-11-10T21:21:04.615681",
+    "matchScore": null
+  }
+]
