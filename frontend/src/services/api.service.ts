@@ -9,8 +9,11 @@ class ApiService {
   private api: AxiosInstance;
 
   constructor() {
+    // Use environment variable or fallback to production backend
+    const apiUrl = import.meta.env.VITE_API_URL || 'https://recrutix-backend.onrender.com';
+    
     this.api = axios.create({
-      baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8000',
+      baseURL: apiUrl,
       timeout: 30000,
       headers: {
         'Content-Type': 'application/json',
